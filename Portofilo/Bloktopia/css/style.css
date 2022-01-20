@@ -1,0 +1,377 @@
+header nav {
+    background-color: black;
+  }
+  
+  header nav .logo img {
+    max-width: 100%;
+    width: 50%;
+  }
+  
+  header nav span img {
+    max-width: 100%;
+    width: 70%;
+  }
+  
+  header nav .navbarmm {
+    padding-top: 35px;
+    padding-bottom: 25px;
+  }
+  
+  header nav .buttons a {
+    font-family: 'Dongle', sans-serif;
+    font-size: 22px;
+    border: solid 1px white;
+    background-color: white;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    border-radius: 15px;
+    padding: 2px 6px 1px 6px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  header nav .buttons a:hover {
+    background-color: #FF47FF;
+    border-color: #FF47FF;
+    padding: 5px 8px 5px 8px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  
+  header .headervideo video {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  main {
+    background-color: black;
+  }
+  
+  main video {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  main .metaversetextright h1 {
+    text-align: end;
+    margin-top: 90px;
+    padding-right: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+  }
+  
+  main .metaversetextright h2 {
+    text-align: end;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FF47FF;
+  }
+  
+  main .metaversetextright img {
+    padding-right: 50px;
+  }
+  
+  main .metaversetextright p {
+    padding-top: 20px;
+    color: white;
+    padding-right: 50px;
+    text-align: end;
+  }
+  
+  main .criptonotebooktext h1 {
+    text-align: start;
+    margin-top: 90px;
+    padding-left: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+  }
+  
+  main .criptonotebooktext h2 {
+    text-align: start;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FF47FF;
+  }
+  
+  main .criptonotebooktext p {
+    padding-top: 20px;
+    color: white;
+    padding-left: 50px;
+    text-align: start;
+  }
+  
+  main .criptonotebookimg img {
+    max-width: 102%;
+  }
+  
+  main .blokpartcenter {
+    background-color: rgba(49, 49, 49, 0.3);
+    width: 50%;
+    border: solid 1px black;
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  main .blokpartcenter h1 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  main .blokpartcenter h3 {
+    color: #FF47FF;
+    font-size: 40px;
+  }
+  
+  main .blokpartcenter p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  main .whatismetaverse {
+    margin-top: 150px;
+  }
+  
+  main .whatismetaverse img {
+    max-width: 45%;
+    max-height: 85%;
+  }
+  
+  main .whatismetaverse h1 {
+    text-align: end;
+    margin-top: 10px;
+    padding-right: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+  }
+  
+  main .whatismetaverse h3 {
+    text-align: end;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FF47FF;
+  }
+  
+  main .whatismetaverse p {
+    padding-top: 20px;
+    color: white;
+    padding-right: 50px;
+    text-align: end;
+  }
+  
+  main #learnpart {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  main #learnpart img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  main #learnpart .learnimg {
+    margin-top: 50px;
+  }
+  
+  main #learnpart .learnimg img {
+    max-width: 100%;
+    width: 40%;
+  }
+  
+  main #earnpart {
+    text-align: center;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  main #earnpart img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  main #earnpart .earnimg {
+    margin-top: 50px;
+  }
+  
+  main #earnpart .earnimg img {
+    max-width: 100%;
+    width: 40%;
+  }
+  
+  main #playpart {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  main #playpart img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  main #playpart .playimg {
+    margin-top: 50px;
+  }
+  
+  main #playpart .playimg img {
+    max-width: 100%;
+    width: 40%;
+  }
+  
+  main #createpart {
+    text-align: center;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  main #createpart img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  main #createpart .createimg {
+    margin-top: 50px;
+  }
+  
+  main #createpart .createimg img {
+    max-width: 100%;
+    width: 40%;
+  }
+  
+  main #opportunities {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  
+  main #opportunities .h1text {
+    border: solid 1px black;
+    width: 50%;
+    -webkit-box-shadow: 0 0 10px 10px #FF47FF;
+            box-shadow: 0 0 10px 10px #FF47FF;
+  }
+  
+  main #opportunities .h1text h3 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding: 15px 20px 10px 20px;
+    text-align: center;
+    color: #FF47FF;
+  }
+  
+  main #blocks {
+    text-align: center;
+  }
+  
+  main #blocks h1 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  main #blocks h3 {
+    color: #FF47FF;
+  }
+  
+  main #blocks p {
+    color: #FF47FF;
+  }
+  
+  main #blocks #blocktext {
+    color: white;
+  }
+  
+  main #blocks #tokenlook {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+  
+  main #blocks #tokenlook p {
+    color: white;
+  }
+  
+  main #tokenutility {
+    background-color: #FF47FF;
+  }
+  
+  main #tokenutility img {
+    max-width: 100%;
+    width: 50%;
+  }
+  
+  main #tokenutility .bloklist img {
+    max-width: 100%;
+    width: 45%;
+  }
+  
+  main #tokenutility .bloklist p {
+    padding-top: 50px;
+  }
+  
+  main #tokenutility .bloklist .col-md-3 {
+    padding-top: 35px;
+  }
+  
+  main #upscroll {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-color: #FF47FF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 968px) {
+    header nav span img {
+      width: 100%;
+    }
+    main .metaversetextright h1 {
+      font-size: 25px;
+    }
+    main .metaversetextright h2 {
+      font-size: 35px;
+    }
+    main .criptonotebooktext h1 {
+      font-size: 25px;
+    }
+    main .criptonotebooktext h2 {
+      font-size: 35px;
+    }
+    main #whatismetaverse h1 {
+      font-size: 25px;
+    }
+    main .h1text {
+      border: solid 1px black;
+      width: 50%;
+      -webkit-box-shadow: 0 0 10px 10px #FF47FF;
+              box-shadow: 0 0 10px 10px #FF47FF;
+    }
+    main .h1text h3 {
+      font-family: 'Mochiy Pop P One', sans-serif;
+      padding: 15px 20px 10px 20px;
+      text-align: center;
+      font-size: 13px;
+      color: #FF47FF;
+    }
+    main .blokpartcenter h1 {
+      font-size: 24px;
+    }
+    main .bloklist p {
+      text-align: center;
+    }
+  }

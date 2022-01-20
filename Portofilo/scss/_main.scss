@@ -1,0 +1,97 @@
+main{
+    background-color: rgb(238, 238, 238);
+    #aboutme{
+        h1{
+            color: rgb(53, 53, 53);
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 50px;
+            font-family: 'Montagu Slab', serif;
+        }
+        a{
+            text-decoration: none;
+            border: solid 1px rgb(182, 205, 206);
+            border-radius: 8px;
+            padding: 10px 30px 10px 30px;
+            background-color: rgb(182, 205, 206);
+            color: black;
+            position: relative;
+            bottom: 50px;
+            left:42%;  
+            transition: 0.7s;
+            font-family: 'Montagu Slab', serif;
+        }
+        img{
+            max-width: 100%; 
+            border-radius: 22px;
+            opacity: 1;
+            transition: 0.5s;
+        }
+        .leftimg:hover{
+            img{
+                opacity: 0.5;
+                transition: 0.5s; 
+            }  
+            a{
+                bottom: 250px;
+                transition: 0.7s; 
+            }
+        }
+        p{
+            margin-top: 180px;
+            font-family: 'Montagu Slab', serif; 
+        }
+    } 
+    #myprojects{ 
+        h1{
+            color: rgb(53, 53, 53);
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 50px;
+            font-family: 'Montagu Slab', serif;
+        }    
+        #img1{
+            max-width: 100%;  
+            opacity: 1;
+            border-radius: 10px;
+        }
+        #img2{
+            position: absolute; 
+            right: 1px;
+            border-radius: 12px;
+            max-width: 100%;  
+            opacity: 0;
+            transition: 0.5s;
+        } 
+        .col-md-4:hover{ 
+            transition: 0.5s;
+            #img1{
+                opacity: 0; 
+                transition: 0.5s;
+            }
+            #img2{
+                opacity: 1;
+                transition: 0.5s;
+            }
+        }
+    }
+    #downloadcv{ 
+        a{
+            text-decoration: none;
+            color: rgb(53, 53, 53);
+            font-size: 25px;
+            transition: 0.2s; 
+            margin-top: 40px;
+        }
+        a:hover{
+            color: red;
+            font-size: 35px;
+            transition: 0.2s;
+        }
+    }
+}
+
+
+
+
+ 

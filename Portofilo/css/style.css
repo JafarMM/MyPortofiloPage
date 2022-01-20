@@ -1,0 +1,126 @@
+header .leftlogo img {
+  max-width: 100%;
+  margin-top: 250px;
+}
+
+header #infome {
+  background-color: rgba(141, 141, 141, 0.2);
+}
+
+header #infome p {
+  width: 500px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px white;
+}
+
+main {
+  background-color: #eeeeee;
+}
+
+main #aboutme h1 {
+  color: #353535;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Montagu Slab', serif;
+}
+
+main #aboutme a {
+  text-decoration: none;
+  border: solid 1px #b6cdce;
+  border-radius: 8px;
+  padding: 10px 30px 10px 30px;
+  background-color: #b6cdce;
+  color: black;
+  position: relative;
+  bottom: 50px;
+  left: 42%;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-family: 'Montagu Slab', serif;
+}
+
+main #aboutme img {
+  max-width: 100%;
+  border-radius: 22px;
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #aboutme .leftimg:hover img {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #aboutme .leftimg:hover a {
+  bottom: 250px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+main #aboutme p {
+  margin-top: 180px;
+  font-family: 'Montagu Slab', serif;
+}
+
+main #myprojects h1 {
+  color: #353535;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Montagu Slab', serif;
+}
+
+main #myprojects #img1 {
+  max-width: 100%;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+main #myprojects #img2 {
+  position: absolute;
+  right: 1px;
+  border-radius: 12px;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #myprojects .col-md-4:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #myprojects .col-md-4:hover #img1 {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #myprojects .col-md-4:hover #img2 {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #downloadcv a {
+  text-decoration: none;
+  color: #353535;
+  font-size: 25px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-top: 40px;
+}
+
+main #downloadcv a:hover {
+  color: red;
+  font-size: 35px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
